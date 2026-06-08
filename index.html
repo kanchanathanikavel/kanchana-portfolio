@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kanchana T | Full Stack Developer</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  color:white;
+  line-height:1.6;
+}
+
+.card{
+  transition:0.4s;
+}
+
+.card:hover{
+  box-shadow:0 0 20px #38bdf8;
+}
+
+    nav{
+      display:flex;
+      justify-content:space-between;
+      padding:20px 60px;
+      background:#111827;
+      position:sticky;
+      top:0;
+    }
+
+    nav h1{
+      color:#38bdf8;
+    }
+
+    nav ul{
+      display:flex;
+      gap:20px;
+      list-style:none;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+    }
+
+    .hero{
+      padding:100px 60px;
+      text-align:center;
+    }
+
+    .hero h2{
+      font-size:55px;
+      margin:10px 0;
+    }
+
+    .hero h3{
+      color:#38bdf8;
+      font-size:30px;
+    }
+
+    .hero p{
+      max-width:700px;
+      margin:20px auto;
+      color:#cbd5e1;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:12px 25px;
+      margin:10px;
+      background:#38bdf8;
+      color:black;
+      border-radius:10px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    section{
+      padding:70px 60px;
+    }
+
+    h2{
+      margin-bottom:20px;
+      color:#38bdf8;
+      font-size:35px;
+    }
+
+    .skills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:15px;
+    }
+
+    .skill{
+      background:#1e293b;
+      padding:12px 20px;
+      border-radius:10px;
+    }
+
+    .projects{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:#1e293b;
+      padding:25px;
+      border-radius:15px;
+    }
+
+    .card h3{
+      margin-bottom:10px;
+      color:#38bdf8;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px;
+      background:#111827;
+      margin-top:40px;
+    }
+
+    .hero h2{
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow{
+  from{
+    text-shadow:0 0 10px #38bdf8;
+  }
+
+  to{
+    text-shadow:0 0 30px #38bdf8;
+  }
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  transition:0.4s;
+}
+
+.btn:hover{
+  background:white;
+  transition:0.4s;
+}
+
+@media(max-width:768px){
+
+  nav{
+    flex-direction:column;
+    gap:15px;
+  }
+
+  nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+  }
+
+  h1{
+    font-size:45px;
+  }
+
+  h2{
+    font-size:28px;
+  }
+
+  .hero{
+    padding:40px 20px;
+    text-align:center;
+  }
+
+  img{
+    width:160px;
+  }
+
+}
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <h1>Portfolio</h1>
+
+  <ul>
+  <li><a href="#about">About</a></li>
+  <li><a href="#skills">Skills</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#education">Education</a></li>
+  <li><a href="#training">Training</a></li>
+  <li><a href="#career">Career</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+  </nav>
+
+  <section class="hero">
+
+    <!-- Social Buttons -->
+
+<div style="margin-top:30px;">
+
+  <a href="https://github.com/kanchanathanikavel" target="_blank" class="btn">
+    GitHub
+  </a>
+
+  <a href="https://www.linkedin.com/in/kanchana-thanikavel-612025372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="btn">
+    LinkedIn
+  </a>
+
+</div>
+
+<!-- Profile Image -->
+
+<div style="margin-top:40px;">
+  <img 
+    src="profile.jpg"
+    alt="kanchana"
+    width="180"
+    style="
+      border-radius:50%;
+      border:5px solid #38bdf8;
+      box-shadow:0 0 25px #38bdf8;
+    "
+  >
+</div>
+    <p>Hello, I'm</p>
+
+    <h2>Kanchana T</h2>
+
+    <h3>Full Stack Developer</h3>
+
+    <p>
+      Passionate Full Stack Developer with strong knowledge in Java,
+      Spring Boot, MySQL and REST APIs.
+    </p>
+
+    <a href="kanchana resume (2).pdf" class="btn">View Resume</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+
+    <p>
+  I am a BCA graduate from Theivanai Ammal College for Women (Autonomous) 
+  with a strong passion for Full Stack Development and modern web technologies. 
+  I have developed projects like Real Estate Listing Platform, Event Management 
+  System, and Online Quiz Application using Java, Spring Boot, MySQL, and REST APIs. 
+  I enjoy building responsive, user-friendly, and efficient web applications while 
+  continuously learning new technologies to improve my development skills.
+</p>
+  </section>
+
+ <section id="career">
+
+  <h2>Career Objective</h2>
+
+  <p>
+    Seeking an opportunity to work as a Full Stack Developer where I can 
+    apply my technical skills, enhance my knowledge, and contribute to 
+    innovative web application development.
+  </p>
+
+</section>
+
+<section id="education">
+
+  <h2>Education</h2>
+
+  <div class="card">
+    <h3>Bachelor of Computer Applications (BCA)</h3>
+
+    <p>
+      Theivanai Ammal College for Women (Autonomous)
+    </p>
+
+  </div>
+
+</section>
+
+<section id="training">
+
+  <h2>Training</h2>
+
+  <div class="card">
+
+    <h3>Full Stack Java Development Course</h3>
+
+    <p>
+      Currently pursuing Full Stack Java Development training at GUVI, 
+      focusing on Java, Spring Boot, MySQL, REST APIs, HTML, CSS, and JavaScript.
+    </p>
+
+  </div>
+
+</section>
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills">
+      <div class="skill">Java</div>
+      <div class="skill">Spring Boot</div>
+      <div class="skill">MySQL</div>
+      <div class="skill">REST API</div>
+      <div class="skill">GitHub</div>
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+      <div class="card">
+        <h3>Real Estate Listing Platform</h3>
+        <p>
+  Developed a modern real estate web application for property listing, 
+  searching, and user management using Java, Spring Boot, MySQL, and REST APIs. 
+  Designed a responsive and user-friendly interface for better user experience.
+</p>
+      </div>
+
+      <div class="card">
+        <h3>Event Management System</h3>
+        <p>
+  Built an event management system to organize events, manage registrations, 
+  schedules, and participant details efficiently. Implemented backend functionalities 
+  using Java, Spring Boot, and MySQL.
+</p>
+      </div>
+
+      <div class="card">
+        <h3>Online Quiz Application</h3>
+        <p>
+  Created an interactive online quiz application with timer functionality, 
+  score calculation, and responsive design. Used Java and REST APIs to manage 
+  quiz data and user interactions effectively.
+</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+
+  <h2>Contact</h2>
+
+  <div class="projects">
+
+    <div class="card">
+      <h3>Email</h3>
+      <p>kanchanathanikavel@gmail.com</p>
+    </div>
+
+    <div class="card">
+      <h3>Phone</h3>
+      <p>+91 8428624076</p>
+    </div>
+
+    <div class="card">
+      <h3>Location</h3>
+      <p>villupuram, India</p>
+    </div>
+
+  </div>
+
+</section>
+  <footer>
+    <p>© 2026 Kanchana T | Full Stack Developer</p>
+  </footer>
+
+</body>
+</html>
